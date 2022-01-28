@@ -12,12 +12,13 @@ nav {
 .wrap {
   background-image: url('./Images/back.png');
   background-size: cover;
-  height: 38em;
+  min-height: 40em;
   /* color: white; */
 }
 .wrap::after {
   content: '';
   position: absolute;
+  height: 40em;
   top: 0;
   bottom: 0;
   right: 0;
