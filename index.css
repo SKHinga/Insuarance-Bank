@@ -174,7 +174,7 @@ ion-icon {
   display: flex;
   justify-content: center;
   position: relative; 
-  top: 7em;
+  top: 3em;
 }
 .bm .third {
   text-align: center;
@@ -182,4 +182,41 @@ ion-icon {
 }
 .bm .third p {
   color: rgba(128, 128, 128, 0.7);;
+}
+/* styling part three */
+.ind {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.pan h2 {
+  text-align: center;
+  margin-bottom: 0.4em;
+}
+.pan p {
+  text-align: center;
+  font-size: 0.6em;
+  color: rgba(128, 128, 128, 0.7);
+}
+.part {
+  display: flex;
+  justify-content: center;
+}
+.fourth {
+  margin: 2em;
+  text-align: center;
+  padding: 0.5em;
+  background-color: white;
+  box-shadow: 1px 1px 5px gray;
+}
+.fourth p {
+  font-size: 0.6em;
+  color: rgba(128, 128, 128, 0.7);
+  margin-bottom: 0.7em;
+}
+.fourth img {
+  max-width: 6em;
+  margin-bottom: 0.7em;
+}
+.material-icons {
+  color: yellow;
+  font-size: 8px;
 }
