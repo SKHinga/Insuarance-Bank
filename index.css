@@ -220,7 +220,7 @@ ion-icon {
 }
 .material-icons {
   color: yellow;
-  font-size: 8px;
+  font-size: 1em !important;
 }
 /* style img logos */
 .con {
@@ -396,7 +396,7 @@ height: 2em;
   background-color: #252B42;
   display: flex;
   justify-content: center;
-  height: 30em;
+  height: 35em;
 }
 .next {
   position: relative;
@@ -417,3 +417,5 @@ height: 2em;
   top: 2em;
   left: 5em;
 }
+/* map section complete */
+/* family img section styling */
