@@ -431,3 +431,46 @@ height: 2em;
 .pic img {
   height: 35em;
 }
+.ment h3 {
+  margin: 1rem 0;
+  font-weight: bold;
+  position: relative;
+  left: 10em;
+}
+.book button {
+  width: 30em;
+  margin-left: 3em;
+  text-align: left;
+  line-height: 2.5em;
+  padding-left: 0.5em;
+  border: none;
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.7);
+  color: rgba(128, 128, 128, 0.7);
+  cursor: pointer;
+  border-radius: 0.5em;
+}
+.book p {
+  margin-left: 4em;
+  line-height: 4em;
+  font-size: 0.6em;
+}
+.book .material-icons {
+  color: gray;
+  position: relative;
+  left: 20em;
+  cursor: pointer;
+}
+.full {
+  line-height: 2em;
+}
+.tton {
+  position: relative;
+  top: 7em;
+}
+.tton button {
+  text-align: center;
+  background-color: #23A6F0;
+  color: white;
+  margin-left: 3em;
+}
+/* img section styling complete */
