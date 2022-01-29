@@ -189,7 +189,9 @@ ion-icon {
 }
 .pan h2 {
   text-align: center;
-  margin-bottom: 0.4em;
+  margin:0.7em;
+  position: relative;
+  top: 0.2em;
 }
 .pan p {
   text-align: center;
