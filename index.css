@@ -354,3 +354,11 @@ height: 2em;
   right: 1em;
   color: #23A6F0;
 }
+#pack {
+  background-color: #252B42;
+  position: relative;
+  bottom: 1.5em;
+}
+#pack h4 {
+  color: white;
+}
