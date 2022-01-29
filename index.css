@@ -474,3 +474,30 @@ height: 2em;
   margin-left: 3em;
 }
 /* img section styling complete */
+.us {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 13em;
+  bottom: 7em;
+}
+.bus h5 {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+.bus p {
+  color: rgba(128, 128, 128, 0.7);
+  font-size: 0.7em;
+}
+.tact button {
+  padding: 0.5em 1em;
+  background-color: #23A6F0;
+  border: none;
+  border-radius: 0.4em;
+  color: white;
+  position: relative;
+  top: 1.5em;
+  cursor: pointer;
+}
+/* end of long grey background */
