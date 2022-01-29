@@ -274,3 +274,83 @@ height: 2em;
   border-radius: 0 7px 7px 0;
 }
 /* Pricing part */
+.prob {
+  margin-bottom: 3em;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
+.package {
+  padding: 1em 0;
+  margin-top: 1em;
+  border: 0.15em solid #23A6F0;
+  margin: 0.01em;
+}
+.package h4 {
+  text-align: center;
+}
+.cen {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.7);
+  font-size: 0.6em;
+}
+.rice {
+  text-align: center;
+}
+#zero {
+  font-size: 3em;
+  color: #23A6F0;
+  position: relative;
+  right: 0.5em;
+}#rice p {
+  position: relative;
+  left: 3em;
+  bottom: 3.2em;
+  font-size: 0.8em;
+  color: #23A6F0;
+}
+#rice p span {
+  position: relative;
+  top: 1em;
+  right: 1em;
+  color: #23A6F0;
+}
+#tworice h5 {
+  font-size: 3em;
+  color: #23A6F0;
+  position: relative;
+  right: 0.5em;
+}
+#tworice p {
+  position: relative;
+  left: 5.5em;
+  bottom: 3.2em;
+  font-size: 0.8em;
+  color: #23A6F0;
+}
+#tworice p span {
+  position: relative;
+  top: 1em;
+  right: 1em;
+  color: #23A6F0;
+}
+#threerice h5 {
+  font-size: 3em;
+  color: #23A6F0;
+  position: relative;
+  right: 0.5em;
+}
+#threerice p {
+  position: relative;
+  left: 6em;
+  bottom: 3.2em;
+  font-size: 0.8em;
+  color: #23A6F0;
+}
+#threerice p span {
+  position: relative;
+  top: 1em;
+  right: 1em;
+  color: #23A6F0;
+}
