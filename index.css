@@ -275,17 +275,19 @@ height: 2em;
 }
 /* Pricing part */
 .prob {
-  margin-bottom: 3em;
+  margin-bottom: 5em;
 }
 .box {
   display: flex;
   justify-content: center;
 }
 .package {
-  padding: 1em 0;
-  margin-top: 1em;
+  padding: 1em 0.5em;
+  /* margin-top: 1em; */
+  height: 28em;
   border: 0.15em solid #23A6F0;
   margin: 0.01em;
+  border-radius: 0.4em;
 }
 .package h4 {
   text-align: center;
@@ -361,4 +363,31 @@ height: 2em;
 }
 #pack h4 {
   color: white;
+}
+#pack p {
+  color: white;
+}
+.ten {
+  color: green;
+}
+.nine {
+  color: gray;
+}
+.tn {
+  position: relative;
+  left: 4.5em;
+  top: 5em;
+}
+.tn button {
+  border: none;
+  background-color: #23A6F0;
+  padding: 0.2em 2em;
+  color: white;
+  font-size: 0.7em;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+.package .material-icons {
+  line-height: 2.5em;
+  font-size: medium;
 }
