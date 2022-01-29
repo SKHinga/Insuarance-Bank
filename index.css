@@ -231,3 +231,44 @@ ion-icon {
   left: 10em;
 }
 /* Sub bar */
+.sub {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 15em;
+  background-image: linear-gradient(90deg, #131f4d 40%, #ec0d96 60%);
+}
+.cribe {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+.mail p {
+  color: white;
+  padding: 0.5em;
+  font-weight: bold;
+  position: relative;
+  top: 0.1em;
+}
+.cribe {
+height: 2em;
+}
+.em {
+  padding-right: 7em;
+  color: rgba(128, 128, 128, 0.7);
+  position: relative;
+  top: 1em;
+  border: none;
+  border-radius: 7px 0 0 7px;
+}
+.sb {
+  color: white;
+  background-color: #23A6F0;
+  position: relative;
+  top: 1em;
+  right: 0.9em;
+  border: none;
+  border-radius: 0 7px 7px 0;
+}
+/* Pricing part */
