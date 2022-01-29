@@ -141,7 +141,29 @@ nav {
 /* section one deco complete */
 ion-icon {
   color: #23A6F0;
+  font-size: 32px;
 }
 #wht {
   color: white;
+}
+.tp {
+  background: #e1ebe6;
+  display: flex;
+  justify-content: center;
+}
+.third {
+  padding: 1.5em;
+  background-color: white;
+  margin: 0.5em;
+  position: relative;
+  bottom: 4em;
+}
+#third {
+  background-color: #23A6F0;
+}
+.third h3 {
+  font-size: 0.8em;
+}
+.third p {
+  font-size: 0.6em;
 }
