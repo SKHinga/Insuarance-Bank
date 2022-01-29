@@ -139,6 +139,7 @@ nav {
   border-radius: 2em;
 }
 /* section one deco complete */
+/* section two top */
 ion-icon {
   color: #23A6F0;
   font-size: 32px;
@@ -147,7 +148,7 @@ ion-icon {
   color: white;
 }
 .tp {
-  background: #e1ebe6;
+  background: rgba(128, 128, 128, 0.1);
   display: flex;
   justify-content: center;
 }
@@ -166,4 +167,19 @@ ion-icon {
 }
 .third p {
   font-size: 0.6em;
+}
+/* section two bottom */
+.bm {
+  padding: 4em;
+  display: flex;
+  justify-content: center;
+  position: relative; 
+  top: 7em;
+}
+.bm .third {
+  text-align: center;
+  margin: 0.9em;
+}
+.bm .third p {
+  color: rgba(128, 128, 128, 0.7);;
 }
