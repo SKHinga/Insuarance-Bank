@@ -55,6 +55,19 @@ nav {
   padding-right: 4em;
   cursor: pointer;
 }
+.topping {
+  display: none;
+  margin: 1em;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+.topping .material-icons {
+  color: gray;
+  margin: 0.1em;
+  position: relative;
+  bottom: 0.5em;
+}
 .come{
   display: flex;
   position: relative;
@@ -537,4 +550,69 @@ height: 2em;
 .insta ion-icon {
   font-size: 1em;
   cursor: pointer;
+}
+/* media queries */
+@media screen and (min-width: 440px) {
+.log {
+  display: none;
+}
+.topping {
+  display: flex;
+}
+.bar h1 {
+  padding: 0.9em;
+  font-size: 1em;
+  color: black;
+}
+.li ul li{
+  padding: 1em;
+  display: block;
+  position: relative;
+  left: 1.5em;
+  top: 2em;
+}
+.li ul li a {
+  color: rgba(128, 128, 128, 0.7);
+}
+.btn {
+  position: relative;
+  right: 25em;
+  cursor: pointer;
+}
+.btn button {
+  display: block;
+}
+.trans {
+  position: relative;
+  margin-top: 8px;
+  margin-left: 13px;
+}
+.wrap {
+  min-height: 75.5em;
+  background-repeat: no-repeat;
+  background-position: 0 250px;
+}
+.wrap::before {
+  height: 60em;
+  top: 250px;
+}
+.tp {
+  flex-direction: column;
+  align-items: center;
+  background: none;
+}
+.third {
+  width: 35%;
+  position: relative;
+  bottom: 420px;
+}
+.bm {
+  flex-direction: column;
+  align-items: center;
+  height: 0;
+  margin-top: 200px;
+}
+.bm .third {
+  
+}
 }
